@@ -23,7 +23,7 @@ This example assumes that you have no experience in Google Cloud Platform.
 
 In case you are also new to Python, you can bear with me and use [Anaconda](https://www.continuum.io/downloads) to save your time on survey and installing Python. 
 
-If you are seasoned Python developer, I believe you know how to convert the following Conda style commands for your environment (e.g. virtual env, Docker, etc).
+If you are a seasoned Python developer, I believe you know how to convert the following Conda style commands for your environment (e.g. virtual env, Docker, etc).
 
 ## Create conda environment
 ```
@@ -353,7 +353,7 @@ From IMAGES tabs you can see examples of evaluation (prediction)
 
 **Note**
 
-While the document claims that we can see the information while the jobs are running, in my case, I have not stop the jobs, otherwise I cannot see anything.
+While the document claims that we can see the information while the jobs are running, in my case, I have to stop the jobs, otherwise I cannot see anything.
 
 
 ## Export the trained TensorFlow model
@@ -370,7 +370,7 @@ You can check your available checkpoint numbers via [Google Cloud Storage Browse
 
 ![Alt text](screenshots/gcs_ckpt.png)
 
-In this example, I will choose CHECKPOINT_NUMBER as ``74574`` (just because I belive the lastest one is the best model since it has been trained longer)
+In this example, I will choose CHECKPOINT_NUMBER as ``74574`` (just because I believe the lastest one is the best model since it has been trained longer)
 
 **Download the graph files to current directory**
 
